@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<yfdc.Center xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/center_class"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_card_xck"
+    android:orientation="vertical"
+    tools:ignore="all">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:rotationX="0"
+        android:src="@drawable/img_greencard" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/phone_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:textColor="#FF000000"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更新于: "
+            android:textColor="#838181"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/cur_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="0000.00.00 00:00:00"
+            android:textColor="#838181"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:gravity="center">
+
+        <com.felipecsl.gifimageview.library.GifImageView
+            android:id="@+id/gif_view"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/green_xck"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#00FFFFFF" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="10dp"
+        android:background="#D1D1D1" />
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/love"
+        android:textColor="#FF9A9A9A"
+        android:textSize="20dp" />
+</yfdc.Center>

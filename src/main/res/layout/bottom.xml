@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<yfdc.Bottom xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="12dp"
+    android:background="#ffffffff"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    tools:ignore="all">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/id0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="一证通查来了！"
+                android:textColor="#FF000000" />
+
+            <TextView
+                android:id="@+id/id1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="立即点击进入"
+                android:textColor="#FF000000" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/id2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/black_rectangle"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/id3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="12dp"
+                android:text="全国移动电话卡&quot;一证通查&quot;"
+                android:textColor="#FFFFFFFF"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/id4"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:text="防范诈骗, 保护你我"
+                android:textColor="#FFFFFFFF"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </LinearLayout>
+</yfdc.Bottom>

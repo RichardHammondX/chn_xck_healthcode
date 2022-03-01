@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false" translatable="false">"通信大数据行程卡"</string>
+    <string name="phone" formatted="true" translatable="false">"%s的动态行程卡"</string>
+    <string name="love" formatted="true" translatable="false">"您于前14天到达或途径: "&lt;font color="\""&quot;#000000&quot;"\""&gt;&lt;b&gt;%s&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str_line1" formatted="false" translatable="false">"结果包含您在前14天内到访的国家 （地区） 与停留4小时以上的国内城市"</string>
+    <string name="str_line2" formatted="false" translatable="false">" 色卡仅对到访地作提醒，不关联健康状况 "</string>
+    <string name="str_line3" formatted="false" translatable="false">"本服务联合提供"</string>
+    <string name="str_kefu" formatted="false" translatable="false">"客服热线: 10000 / 10086 / 10010"</string>
+    <string name="str_bad_city" translatable="false" formatted="false">" （注: *表示当前城市存在中风险或高风险地区, 并不表示用户实际到访过这些中高风险地区。）"</string>
+</resources>
